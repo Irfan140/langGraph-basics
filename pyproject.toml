@@ -6,11 +6,14 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ddgs>=9.11.4",
+    "faiss-cpu>=1.13.2",
     "fastmcp>=3.2.0",
     "langchain>=1.2.12",
     "langchain-community>=0.4.1",
     "langchain-groq>=1.1.2",
     "langchain-mcp-adapters>=0.2.2",
+    "langchain-openai>=1.1.12",
     "langgraph>=1.1.2",
+    "pypdf>=6.9.2",
     "python-dotenv>=1.2.2",
 ]
